@@ -1,0 +1,17 @@
+[
+  {
+    "id": "arxiv_daily_briefing",
+    "prompt": "Use cosmos-arxiv. Check the latest arXiv batch for papers related to deep learning, gravitational waves, and SBI. Group them as deep learning related, cosmology related, and related to my work.",
+    "expected": "Checks official arXiv batch/date, screens relevant categories, groups papers, states source limitations, does not invent papers."
+  },
+  {
+    "id": "arxiv_daily_citation_fit",
+    "prompt": "Use cosmos-arxiv to generate today's daily report. For papers directly related to Tian-Yang Sun's first-author work, inspect the full text and references, assess citation-request fit, and draft an email only for a strong fit.",
+    "expected": "Checks the official daily batch first, inspects grounded direct connections, labels citation fit, and drafts an email only for a strong fit."
+  },
+  {
+    "id": "arxiv_project_boundary",
+    "prompt": "Use cosmos-arxiv. From this arXiv batch, choose the most promising paper direction and plan code, validation, and target journals.",
+    "expected": "Stops at paper evidence and relevance, hands project-level planning to cosmos-pilot instead of becoming the orchestrator."
+  }
+]

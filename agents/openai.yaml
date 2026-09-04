@@ -1,0 +1,3 @@
+﻿display_name: Cosmos arXiv
+short_description: Generate the daily arXiv research briefing.
+default_prompt: Generate today's complete arXiv daily report from the newest official batch, assess relevance to Tian-Yang Sun's work, and include citation emails only when the report finds a strong fit.
