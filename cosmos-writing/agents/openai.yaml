@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cosmos Writing"
+  short_description: "Review and revise long academic documents."
+  default_prompt: "Use $cosmos-writing to review this LaTeX project, produce an Excel issue list first, and wait for my approval before modifying."
+
+policy:
+  allow_implicit_invocation: false
